@@ -1,0 +1,18 @@
+
+/*reset*/
+*{
+    margin: auto;
+    padding: 20px;
+}
+table {
+
+}
+td {
+    text-align: center;
+    background: rgba(10,100,0,0.5);
+	cursor:pointer;
+}
+td:active {
+	position:relative;
+	top:1px;
+}
