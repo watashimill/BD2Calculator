@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Calcuator</title>
+    <script type="text/javascript"src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+</head>
+<body>
+<form name="calculator" >
+    <table align="center" >
+        <tr><td colspan="4"><input type="text" name="ans" value=""></td></tr>
+        <tr>
+            <td>
+               <p onclick="one()">1</p>
+            </td>
+            <td>
+               <p onclick="two()">2</p>
+            </td>
+            <td>
+                <p onclick="three()">3</p>
+            </td>
+            <td>
+               <p onclick="plus()">+</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <p onclick="four()">4</p>
+            </td>
+             <td>
+               <p onclick="five()">5</p>
+            </td>
+             <td>
+               <p onclick="six()">6</p>
+            </td>
+             <td>
+               <p onclick="minus()">-</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <p onclick="seven()">7</p>
+            </td>
+             <td>
+               <p onclick="eight()">8</p>
+            </td>
+             <td>
+               <p onclick="nine()">9</p>
+            </td>
+             <td>
+               <p onclick="muti()">*</p> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p onclick="op()">(</p>
+            </td>
+            <td>
+                <p onclick="zero()">0</p>
+            </td>
+            <td>
+                <p onclick="cl()">)</p>
+            </td>
+            <td>
+               <p  onclick="divide()">/</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p onclick="mod()">%</p>
+            </td>
+            <td>
+                <p onclick="c()">C</p>
+            </td>
+            <td colspan="2">
+                <p onclick="show(cal(InToPost(STI(document.calculator.ans.value))))">=</p>    
+            </td>     
+        </tr>
+    </table>
+</form>
+</body>
+</html>
